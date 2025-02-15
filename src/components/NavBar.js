@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import logo from '.../assets/logo.png'
+import logo from '/workspace/pp5/src/assets/logo.png'
 
 const NavBar = () => {
     return (
@@ -11,7 +11,7 @@ const NavBar = () => {
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="mr-auto">
+                    <Nav className="ml-auto text-left">
                         <Nav.Link><i className="fas fa-home"></i>Home
                         </Nav.Link>
                         <Nav.Link><i className="fas fa-sign-in-alt"></i>Sign in

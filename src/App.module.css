@@ -1,0 +1,9 @@
+.App {
+    font-family: "Annie Use Your Telescope", sans-serif;
+    background-color: white;
+    min-height: 100vh;
+}
+
+div {
+    background-color: lightpink;
+}
