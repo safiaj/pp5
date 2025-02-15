@@ -2,5 +2,37 @@
     font-family: "Annie Use Your Telescope", sans-serif;
     background-color: white;
     min-height: 100vh;
+    font-size: large;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: lightgrey;
+    transition: color ease-in-out 0.2s;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:hover i{
+    color: darkmagenta;
+    transition: color ease-in-out 0.2s;
+}
+
+i {
+    color: ghostwhite;
+    font-size: 1.6rem;
+    padding: 7px;
+    vertical-align: middle;
+}
+
+i:hover {
+    cursor: pointer;
+    transition: color ease-in-out 0.2s;
+    color: darkmagenta;
 }
 
