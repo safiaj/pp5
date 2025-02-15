@@ -5,6 +5,10 @@
     font-size: large;
 }
 
+.Main {
+    padding-top: 90px;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -24,7 +28,7 @@ a:hover i{
 }
 
 i {
-    color: ghostwhite;
+    color: gray;
     font-size: 1.6rem;
     padding: 7px;
     vertical-align: middle;
